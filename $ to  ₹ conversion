@@ -1,0 +1,14 @@
+package livecurrencyconversion;
+import java.util.Scanner;
+public class indiancurrency {
+     public static void main(String args[]){
+    	 
+    	 Scanner input = new Scanner(System.in);
+    	 System.out.print("Enter the $ you want to change in indian currencey : ");
+    	 int a = input.nextInt();
+    	 double b = a*65.45; 
+    	 System.out.println("The indian currencey is:  "+ b);
+    	 
+    	 
+     }
+}
